@@ -10,10 +10,10 @@ public class DBConnection {
 
     private final String URL = "jdbc:mysql://localhost:3306/shop_db";
     private final String USER = "root";
-    private final String PASSWORD = "Root";
+    private final String PASSWORD = "!khj019600ss";
 
     private DBConnection() {
-        try {
+        try  {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (Exception e) {

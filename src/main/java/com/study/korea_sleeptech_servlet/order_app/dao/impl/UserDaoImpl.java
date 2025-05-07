@@ -27,7 +27,6 @@ public class UserDaoImpl implements UserDao {
             e.printStackTrace();
             return false;
         }
-        //        return false
     }
 
     @Override
